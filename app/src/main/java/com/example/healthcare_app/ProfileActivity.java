@@ -111,13 +111,13 @@ public class ProfileActivity extends AppCompatActivity {
 
         String bmiCategory;
         if (bmi < 18.5) {
-            bmiCategory = "You are Underweight";
+            bmiCategory = "Underweight";
         } else if (bmi < 24.9) {
-            bmiCategory = "You are Healthy";
+            bmiCategory = "Normal Weight";
         } else if (bmi < 29.9) {
             bmiCategory = "Overweight";
         } else {
-            bmiCategory = "You are Obese";
+            bmiCategory = "Obese";
         }
 
         textViewBMICategory.setText("Category: " + bmiCategory);
