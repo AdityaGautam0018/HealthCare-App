@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateProfileActivity">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:padding="20dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/lato_bold_italic"
+        android:paddingTop="30dp"
+        android:text="You can update your details now!"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textSize="30sp" />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lato_black"
+            android:text="@string/name"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/update_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_black_italic"
+            android:background="@drawable/profil_bg"
+            android:hint="@string/name"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Height"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/update_height"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_black_italic"
+            android:background="@drawable/profil_bg"
+            android:hint="Height"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/lato_black"
+            android:text="Weight"
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/update_weight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lato_black_italic"
+            android:background="@drawable/profil_bg"
+            android:hint="Weight"
+            android:minHeight="48dp"
+            android:padding="10dp" />
+        <Button
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gradient_background"
+            android:text="Update"
+            android:paddingRight="50dp"
+            android:paddingLeft="50dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

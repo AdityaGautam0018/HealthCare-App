@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="secondary_color">#7A7676</color>
+    <color name="color_53B2FE">#9ECFF6</color>
+    <color name="color_065AF3">#065AF3</color>
+    <color name="color_CBCBCB">#CBCBCB</color>
+    <color name="color_FFEBEE_alpha_06">#96FFEBEE</color>
+    <color name="color_FFEBEE">#FFEBEE</color>
+    <color name="color_B3ffffff">#B3ffffff</color>
+    <color name="color_66FFFFFF">#66FFFFFF</color>
+    <color name="color_533105">#533105</color>
+    <color name="color_0B0B0B">#0B0B0B</color>
+    <color name="color_premium_placeholder">#FCEED0BF</color>
+    <color name="bottombar_bg">#292828</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black_alpha_less">#99000000</color>
+    <color name="black_alpha_lesser">#33000000</color>
+    <color name="banner_gradient_color_1">#3023AE</color>
+    <color name="banner_gradient_color_2">#912086</color>
+
+    <color name="red_gc">#eb2026</color>
+    <color name="grey_gc">#626262</color>
+    <color name="color_cce8ff">#CCE8FF</color>
+    <color name="color_E6FFF9">#E6FFF9</color>
+
+
+</resources>
